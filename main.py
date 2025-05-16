@@ -1,9 +1,12 @@
 from flask import Flask, jsonify
-from magister import Magister
 from datetime import datetime, timedelta
 import asyncio
-import os
 import json
+import os
+import sys
+
+sys.path.append('/magister_lib')
+from magister import Magister
 
 app = Flask(__name__)
 

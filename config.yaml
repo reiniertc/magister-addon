@@ -1,7 +1,7 @@
 name: Magister Add-on
-version: "1.0"
+version: "1.1"
 slug: magister-addon
-description: "REST API voor Magister-data zoals huiswerk, rooster en cijfers"
+description: "REST API voor Magister-data zoals huiswerk"
 arch:
   - amd64
   - aarch64
