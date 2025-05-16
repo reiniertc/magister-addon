@@ -1,0 +1,20 @@
+name: Magister Add-on
+version: "1.0"
+slug: magister-addon
+description: "REST API voor Magister-data zoals huiswerk, rooster en cijfers"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: application
+boot: auto
+options:
+  school_url: "https://<jouw-school>.magister.net"
+  username: "<gebruikersnaam>"
+  password: "<wachtwoord>"
+schema:
+  school_url: str
+  username: str
+  password: str
+ports:
+  8000/tcp: 8000
