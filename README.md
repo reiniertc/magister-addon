@@ -1,5 +1,9 @@
 # Magister Add-on voor Home Assistant
 
+## let op: dit is in ontwikkeling, er is geen enkele garantie dat dit werkt
+## ik stop er af en toe wat uurtjes in, als het eenmaal werkt zal ik het
+## hier vermelden
+
 Deze add-on maakt een REST API beschikbaar binnen je Home Assistant-installatie waarmee je gegevens uit [Magister](https://mijn.magister.net) kunt ophalen, zoals:
 
 - Huiswerk (komende 5 dagen)
