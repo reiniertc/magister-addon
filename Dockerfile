@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-RUN pip install magister.py flask
+RUN pip install magister flask
 
 COPY main.py /main.py
 
